@@ -27,6 +27,7 @@ class BitStructInfo:
     """List of field names to access them on the object"""
 
     field_type: List[type] = None
+    """List of expected field types to validate them on the object"""
 
     from_bitstruct: str = ''
     """bitstruct unpack() format string"""
